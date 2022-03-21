@@ -18,9 +18,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run test:end-to-end:headless&&set CI=true&&npm test&&npm run build",
     "deploy": "gh-pages -d build",
     "test:end-to-end": "node ./node_modules/testcafe/bin/testcafe.js chrome end-to-end/App.spec.ts",
+    "test:end-to-end:headless": "node ./node_modules/testcafe/bin/testcafe.js chrome:headless end-to-end/App.spec.ts",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

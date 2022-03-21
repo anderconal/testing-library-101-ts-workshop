@@ -7,3 +7,16 @@ fixture `Testing Library 101 TypeScript Workshop`
 test('renders learn react link', async (t) => {
     await t.expect(Selector(screen.getByText(/learn react/i)).exists).ok();
 });
+
+test('increments count on button click', async (t) => {
+    // Arrange
+    await t.expect(Selector(screen.getByText(/you clicked 0 times/i)).exists).ok();
+
+    // Act
+    const clickMeButton = screen.getByRole('button', { name: /click me/i });
+    await t.click(clickMeButton);
+
+    // Assert
+    await t.expect(Selector(screen.queryByText(/you clicked 0 times/i)).exists).notOk();
+    await t.expect(Selector(screen.getByText(/you clicked 1 times/i)).exists).ok();
+});

@@ -8,7 +8,7 @@ import { shallow } from 'enzyme';
 import { expect } from 'chai';
 import { ClassComponent } from '../ClassComponent/ClassComponent';
 
-describe('Unit tests with Enzyme (legacy): Testing Library 101 TypeScript Workshop', () => {
+describe('Unit tests with Mocha, Chai and Enzyme (legacy): Testing Library 101 TypeScript Workshop', () => {
     it('increments count on button click', () => {
         // Arrange
         const shallowWrapper = shallow<ClassComponent>(<ClassComponent />);

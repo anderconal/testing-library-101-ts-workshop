@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {ClassComponent} from "./ClassComponent/ClassComponent";
+import { ClassComponent } from './ClassComponent/ClassComponent';
 
 function App() {
   return (

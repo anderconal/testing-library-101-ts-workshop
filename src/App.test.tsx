@@ -11,7 +11,7 @@ describe('Unit tests with Jest and Testing Library: Testing Library 101 TypeScri
     // Assert
     expect(linkElement).toBeInTheDocument();
   });
-  
+
   test('increments count on button click', () => {
     // Arrange
     render(<App />);
@@ -26,4 +26,3 @@ describe('Unit tests with Jest and Testing Library: Testing Library 101 TypeScri
     expect(screen.getByText(/you clicked 1 times/i)).toBeInTheDocument();
   });
 });
-

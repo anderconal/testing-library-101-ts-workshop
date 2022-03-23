@@ -21,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run test:end-to-end:headless&&set CI=true&&npm test&&npm run build",
+    "predeploy": "npm run test:legacy&&npm run test:end-to-end:headless&&set CI=true&&npm test&&npm run build",
     "deploy": "gh-pages -d build",
     "test:legacy": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'src/TestsLegacy/*.tsx'",
     "test:end-to-end": "node ./node_modules/testcafe/bin/testcafe.js chrome end-to-end/App.spec.ts",

@@ -32,7 +32,18 @@
 * Branch
     * // TODO Add branch link
 * Instruction
-    *
-    Understand [ClassComponent.ts](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/ClassComponent/ClassComponent.tsx)
-    *
-    Understand [ClassComponentLegacyTest.tsx](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/TestsLegacy/ClassComponentLegacyTest.tsx)
+    * Understand
+        * [ClassComponent.tsx](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/ClassComponent/ClassComponent.tsx)
+        * [ClassComponentLegacyTest.tsx](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/TestsLegacy/ClassComponentLegacyTest.tsx)
+    * Refactor
+        * [ClassComponent.tsx](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/ClassComponent/ClassComponent.tsx)
+            * Rename `count` to be `kakafuti` and save
+            * What happened?
+            * Revert the changes
+            * Remove
+              the `<p>You clicked {this.state.count} times</p>` [line](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/ClassComponent/ClassComponent.tsx#L18)
+              and save
+            * What happened?
+            * Revert the changes
+    * Time estimation
+        * 30 minutes

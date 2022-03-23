@@ -28,6 +28,7 @@
     "formatter": "node ./node_modules/prettier/bin-prettier.js --check \"./src/**/*.{ts,tsx}\"",
     "formatter:fix": "node ./node_modules/prettier/bin-prettier.js --write \"./**/*.{ts,tsx}\"",
     "test:legacy": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'src/TestsLegacy/*.tsx'",
+    "test:legacy:watch": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register --watch --watch-files src/ClassComponent/*.tsx src/TestsLegacy/*.tsx",
     "test:end-to-end": "node ./node_modules/testcafe/bin/testcafe.js chrome end-to-end/App.spec.ts",
     "test:end-to-end:headless": "node ./node_modules/testcafe/bin/testcafe.js chrome:headless end-to-end/App.spec.ts",
     "start": "react-scripts start",

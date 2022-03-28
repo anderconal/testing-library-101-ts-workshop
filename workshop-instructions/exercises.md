@@ -47,3 +47,27 @@
             * Revert the changes
     * Time estimation
         * 30 minutes
+
+## Practical exercise 02
+
+* Branch
+    * // TODO Add branch link
+* Instruction
+    * Understand
+        *
+    * Refactor
+        *
+    * Time estimation
+        * 30 minutes
+
+## Practical exercise 03
+
+* Branch
+    * // TODO Add branch link
+* Instruction
+    * Understand
+        *
+    * Refactor
+        *
+    * Time estimation
+        * 10 minutes

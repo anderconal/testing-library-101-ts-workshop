@@ -1,20 +1,11 @@
-import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
-import App from './App';
+import React from 'react';
+import { ClassComponent } from './ClassComponent';
 
-describe('Integration tests with Jest and Testing Library: Testing Library 101 TypeScript Workshop', () => {
-  test('renders learn react link', () => {
-    // Arrange + Act
-    render(<App />);
-    const linkElement = screen.getByText(/learn react/i);
-
-    // Assert
-    expect(linkElement).toBeInTheDocument();
-  });
-
-  test('increments count on button click', () => {
+describe('Unit tests with Jest and Testing Library: Testing Library 101 TypeScript Workshop', () => {
+  test('ClassComponent increments count on button click', () => {
     // Arrange
-    render(<App />);
+    render(<ClassComponent />);
     expect(screen.getByText(/you clicked 0 times/i)).toBeInTheDocument();
 
     // Act

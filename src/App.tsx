@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { ClassComponent } from './ClassComponent/ClassComponent';
+import { FunctionalComponentWithHooks } from './FunctionalComponentWithHooks/FunctionalComponentWithHooks';
+import { AppLink } from './AppLink';
 
 function App() {
   return (
@@ -11,15 +12,8 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <ClassComponent />
+        <AppLink />
+        <FunctionalComponentWithHooks />
       </header>
     </div>
   );

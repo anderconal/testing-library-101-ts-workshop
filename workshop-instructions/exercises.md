@@ -66,7 +66,13 @@
     * // TODO Add branch link
 * Instruction
     * Understand
-        *
+        * [FunctionalComponentWithHooks](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.tsx) (
+          what have changed
+          from [Class Component]([ClassComponent.tsx](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/ClassComponent/ClassComponent.tsx)))
+          . What happened
+          with [Class component test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/TestsLegacy/ClassComponentLegacyTest.tsx)
+          ?
+        * [FunctionalComponentWithHooks test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.test.tsx)
     * Refactor
         *
     * Time estimation

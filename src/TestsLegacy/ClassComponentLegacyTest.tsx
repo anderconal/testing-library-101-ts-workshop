@@ -14,7 +14,7 @@ describe('Unit tests with Mocha, Chai and Enzyme (legacy): Testing Library 101 T
     expect(shallowWrapper.state().count).to.eq(0);
 
     // Act
-    shallowWrapper.find('button').simulate('click');
+    shallowWrapper.instance().handleClick();
 
     // Assert
     expect(shallowWrapper.state().count).to.eq(1);

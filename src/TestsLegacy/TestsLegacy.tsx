@@ -27,7 +27,7 @@ describe('Unit tests with Mocha, Chai and Enzyme (legacy): Testing Library 101 T
   describe('Enzyme new way', () => {
     it('ClassComponent increments count on button click', () => {
       // Arrange
-      const shallowWrapper = shallow<ClassComponent>(<ClassComponent />);
+      const shallowWrapper = shallow(<ClassComponent />);
       expect(shallowWrapper.find('p').text()).to.eq('You clicked 0 times');
 
       // Act
@@ -39,9 +39,7 @@ describe('Unit tests with Mocha, Chai and Enzyme (legacy): Testing Library 101 T
 
     it('FunctionalComponentWithHooks increments count on button click', () => {
       // Arrange
-      const shallowWrapper = shallow<ClassComponent>(
-        <FunctionalComponentWithHooks />
-      );
+      const shallowWrapper = shallow(<FunctionalComponentWithHooks />);
       expect(shallowWrapper.find('p').text()).to.eq('You clicked 0 times');
 
       // Act
@@ -51,7 +49,7 @@ describe('Unit tests with Mocha, Chai and Enzyme (legacy): Testing Library 101 T
       expect(shallowWrapper.find('p').text()).to.eq('You clicked 1 times');
     });
 
-    it('FunctionalComponentWithHooks increments count on button click', () => {
+    it('RefactoredFunctionalComponentWithHooks increments count on button click', () => {
       // Arrange
       const shallowWrapper = shallow(
         <RefactoredFunctionalComponentWithHooks />

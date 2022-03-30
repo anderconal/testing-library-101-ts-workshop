@@ -5,7 +5,7 @@ export function RefactoredFunctionalComponentWithHooks() {
 
   return (
     <>
-      <h4>You clicked {count} times</h4>
+      <p>You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>Click me</button>
       <button onClick={() => setCount(count - 1)}>Added on refactor</button>
     </>

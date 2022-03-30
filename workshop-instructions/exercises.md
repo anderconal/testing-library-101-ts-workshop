@@ -67,7 +67,7 @@
           and [FunctionalComponentWithHooks test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.test.tsx)
           or [RefactoredFunctionalComponentWithHooks test]()
     * Refactor
-        * Move the `<button onClick={() => this.handleClick()}>Click me</button>` [line]() to be the last button of the
+        * Move the `<button onClick={() => setCount(count + 1)}>Click me</button>` [line]() to be the last button of the
           section and save. What happened?
         * Update the `<p>You clicked {this.state.count} times</p>` [line]() to
           be `<h4>You clicked {this.state.count} times</h4>` and save. What happened?

@@ -51,9 +51,9 @@ describe('Unit tests with Mocha, Chai and Enzyme (legacy): Testing Library 101 T
       expect(shallowWrapper.find('p').text()).to.eq('You clicked 1 times');
     });
 
-    it('RefactoredFunctionalComponentWithHooks increments count on button click', () => {
+    it('FunctionalComponentWithHooks increments count on button click', () => {
       // Arrange
-      const shallowWrapper = shallow<ClassComponent>(
+      const shallowWrapper = shallow(
         <RefactoredFunctionalComponentWithHooks />
       );
       expect(shallowWrapper.find('h4').text()).to.eq('You clicked 0 times');

@@ -59,7 +59,7 @@ describe('Unit tests with Mocha, Chai and Enzyme (legacy): Testing Library 101 T
       expect(shallowWrapper.find('h4').text()).to.eq('You clicked 0 times');
 
       // Act
-      shallowWrapper.find('button').simulate('click');
+      shallowWrapper.find('button').first().simulate('click');
 
       // Assert
       expect(shallowWrapper.find('h4').text()).to.eq('You clicked 1 times');

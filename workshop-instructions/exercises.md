@@ -54,9 +54,23 @@
     * // TODO Add branch link
 * Instruction
     * Understand
-        *
+        * [FunctionalComponentWithHooks](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.tsx) (
+          what have changed
+          from [Class Component]([ClassComponent.tsx](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/ClassComponent/ClassComponent.tsx)))
+          . What happened
+          with [Class component test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/TestsLegacy/ClassComponentLegacyTest.tsx)
+          ?
+        * [FunctionalComponentWithHooks test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.test.tsx)
+        * [RefactoredFunctionalComponentWithHooks test]()
+        * The difference
+          between [Class component test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/TestsLegacy/ClassComponentLegacyTest.tsx)
+          and [FunctionalComponentWithHooks test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.test.tsx)
+          or [RefactoredFunctionalComponentWithHooks test]()
     * Refactor
-        *
+        * Move the `<button onClick={() => this.handleClick()}>Click me</button>` [line]() to be the last button of the
+          section and save. What happened?
+        * Update the `<p>You clicked {this.state.count} times</p>` [line]() to
+          be `<h4>You clicked {this.state.count} times</h4>` and save. What happened?
     * Time estimation
         * 30 minutes
 
@@ -66,14 +80,8 @@
     * // TODO Add branch link
 * Instruction
     * Understand
-        * [FunctionalComponentWithHooks](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.tsx) (
-          what have changed
-          from [Class Component]([ClassComponent.tsx](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/ClassComponent/ClassComponent.tsx)))
-          . What happened
-          with [Class component test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/TestsLegacy/ClassComponentLegacyTest.tsx)
-          ?
-        * [FunctionalComponentWithHooks test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.test.tsx)
+        * [Firing events with Testing Library and reacting to refactors tests]()
     * Refactor
-        *
+        * Try to broke the tests performing the actions described in exercises 01 and 02. What happened?
     * Time estimation
         * 10 minutes

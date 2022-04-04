@@ -201,5 +201,13 @@
 * Branch
     * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
 * Instruction
-    * Time estimation
-        * to minutes, depending on the group
+    * Understand
+        * [App.test.tsx integration test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/App.test.tsx)
+        * [App.spec.ts end-to-end test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/end-to-end/App.spec.ts)
+    * Which differences can you appreciate regarding how are we querying the DOM?
+    * Choose
+      between [App.spec.ts end-to-end test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/end-to-end/App.spec.ts)
+      and [Cypress option end-to-end test]() and add more assertions so you can cover the test cases on practical
+      exercises 04, 05 and 06
+* Time estimation
+    * 20 to 30 minutes, depending on the group

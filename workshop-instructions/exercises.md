@@ -47,7 +47,7 @@
             * What happened?
             * Revert the changes
     * Time estimation
-        * 30 minutes
+        * 10 to 30 minutes, depending on the group
 
 ## Practical exercise 02
 
@@ -88,7 +88,7 @@
               with be `<h4>You clicked {this.state.count} times</h4>` and save. What happened?
         * Revert the changes
     * Time estimation
-        * 30 minutes
+        * 10 to 30 minutes, depending on the group
 
 ## Practical exercise 03
 
@@ -103,4 +103,58 @@
         * Run npm run
             * Try to broke the tests performing the actions described in exercises 01 and 02. What happened?
     * Time estimation
-        * 10 minutes
+        * 10 to 15 minutes, depending on the group
+
+## Practical exercise 04
+
+* Branch
+    * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
+* Instruction
+    * Prepare a test for
+      the [FunctionalComponentWithHooks](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.tsx)
+      on which you assert the following elements have been rendered into the DOM
+        * Button with default button role
+        * Button with forced button role
+        * Div with forced button role
+    * Time estimation
+        * 10 to 15 minutes, depending on the group
+
+## Practical exercise 05
+
+* Branch
+    * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
+* Instruction
+    * Time estimation
+        * to minutes, depending on the group
+
+## Practical exercise 06
+
+* Branch
+    * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
+* Instruction
+    * Time estimation
+        * to minutes, depending on the group
+
+## Practical exercise 07
+
+* Branch
+    * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
+* Instruction
+    * Time estimation
+        * to minutes, depending on the group
+
+## Practical exercise 08
+
+* Branch
+    * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
+* Instruction
+    * Time estimation
+        * to minutes, depending on the group
+
+## Practical exercise 09
+
+* Branch
+    * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
+* Instruction
+    * Time estimation
+        * to minutes, depending on the group

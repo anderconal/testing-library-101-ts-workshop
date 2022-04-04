@@ -179,8 +179,22 @@
 * Branch
     * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
 * Instruction
-    * Time estimation
-        * to minutes, depending on the group
+    * Open
+        * [FunctionalComponentWithHooks test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.test.tsx)
+    * And play with
+        * Replace the `expect(screen.queryByText(/you clicked 0 times/i)).not.toBeInTheDocument();` line
+          with `expect(screen.getByText(/you clicked 0 times/i)).toBeInTheDocument();` and save
+        * Read and understand the TestingLibraryElementError
+        * Revert the changes
+    * Open
+        * [FunctionalComponentWithHooks](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.tsx)
+    * And play with
+        * Delete the `<p>You clicked {count} times</p>` line and save
+            * Read and understand the TestingLibraryElementError
+            * Revert the changes
+
+* Time estimation
+    * 10 to 15 minutes, depending on the group
 
 ## Practical exercise 09
 

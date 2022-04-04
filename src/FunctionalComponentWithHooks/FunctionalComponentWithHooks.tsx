@@ -26,6 +26,15 @@ export function FunctionalComponentWithHooks() {
                 <a>Anchor without href and without role links</a>
                 <div role={'link'}>Div without href and with role link</div>
             </div>
+
+            <div>
+                <h2>Heading with default heading role</h2>
+                <h2 role={'heading'}>Heading with forced heading role</h2>
+                <div role={'heading'} aria-level={3}>
+                    Div with forced heading role and aria-level 3
+                </div>
+                <h4>Heading with aria-level 4</h4>
+            </div>
         </>
     );
 }

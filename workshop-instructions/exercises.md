@@ -139,8 +139,18 @@
 * Branch
     * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
 * Instruction
-    * Time estimation
-        * to minutes, depending on the group
+    * Prepare a test for
+      the [FunctionalComponentWithHooks](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.tsx)
+      on which you assert the following elements have been rendered into the DOM
+        * Heading with default heading role
+        * Heading with forced heading role
+        * Div with forced heading role and aria-level 3
+        * Heading with aria-level 4
+    * Refactor the HTML so *Div with forced heading role and aria-level 3* has `aria-level=4` and save. What happened?
+    * Refactor the HTML so *Heading with aria-level 4* uses `h5` and save. What happened?
+    * Revert the changes
+* Time estimation
+    * 10 to 15 minutes, depending on the group
 
 ## Practical exercise 07
 

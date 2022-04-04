@@ -101,7 +101,9 @@
         * [RefactoredFunctionalComponentWithHooks test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/RefactoredFunctionalComponentWithHooks..test.tsx)
     * Refactor
         * Run npm run
-            * Try to broke the tests performing the actions described in exercises 01 and 02. What happened?
+            * Try to broke the tests performing the actions described
+              in[FunctionalComponentWithHooks test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.test.tsx)
+              exercises 01 and 02. What happened?
     * Time estimation
         * 10 to 15 minutes, depending on the group
 
@@ -157,8 +159,20 @@
 * Branch
     * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
 * Instruction
-    * Time estimation
-        * to minutes, depending on the group
+    * Open
+        * [FunctionalComponentWithHooks test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.test.tsx)
+    * And play with
+        * [prettyDOM](https://testing-library.com/docs/dom-testing-library/api-debugging/#prettydom)
+        * [logRoles](https://testing-library.com/docs/dom-testing-library/api-debugging/#logroles)
+        * [screen.debug()](https://testing-library.com/docs/queries/about/#screendebug)
+            * This method is essentially a shortcut for `console.log(prettyDOM())`s. It supports debugging the document,
+              a single element, or an array of elements.
+        * [screen.logTestingPlaygroundURL()](https://testing-library.com/docs/queries/about/#screenlogtestingplaygroundurl)
+    * Install the [browser extension](https://testing-library.com/docs/queries/about/#browser-extension)
+    * Open [this URL](https://anderconal.github.io/testing-library-101-ts-workshop/) and play with the extension
+    * Open [the playground](https://testing-playground.com/) and play with it
+* Time estimation
+    * 15 to 20 minutes, depending on the group
 
 ## Practical exercise 08
 

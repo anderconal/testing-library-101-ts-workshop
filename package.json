@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run formatter&&npm run linter&&npm run test:legacy&&npm run test:end-to-end:headless&&set CI=true&&npm test&&npm run build",
+    "predeploy": "npm run formatter&&npm run linter&&npm run test:legacy&&npm run test:end-to-end:headless&&npm run test:end-to-end:cypress:headless&&set CI=true&&npm test&&npm run build",
     "deploy": "gh-pages -d build",
     "linter": "node ./node_modules/eslint/bin/eslint.js . --ext .ts,.tsx --ignore-pattern node_modules/",
     "linter:fix": "node ./node_modules/eslint/bin/eslint.js . --ext .ts,.tsx --ignore-pattern node_modules/ --fix",
@@ -33,7 +33,7 @@
     "test:legacy": "cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} mocha -r ts-node/register 'src/TestsLegacy/*.tsx'",
     "test:legacy:watch": "cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} mocha --require ts-node/register 'src/TestsLegacy/*.tsx' --watch --watch-files src",
     "test:end-to-end": "node ./node_modules/testcafe/bin/testcafe.js chrome end-to-end/App.spec.ts",
-    "test:end-to-end:cypress": "cypress run",
+    "test:end-to-end:cypress:headless": "cypress run",
     "test:end-to-end:headless": "node ./node_modules/testcafe/bin/testcafe.js chrome:headless end-to-end/App.spec.ts",
     "start": "react-scripts start",
     "build": "react-scripts build",

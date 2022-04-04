@@ -4,8 +4,6 @@ describe('When load home page', () => {
   });
 
   it('increments count on button click', () => {
-    cy.visit('/');
-
     // Arrange
     cy.contains('You clicked 0 times').should('exist');
 
@@ -16,6 +14,5 @@ describe('When load home page', () => {
     // Assert
     cy.contains('You clicked 0 times').should('not.exist');
     cy.contains('You clicked 1 times').should('exist');
-
   });
 });

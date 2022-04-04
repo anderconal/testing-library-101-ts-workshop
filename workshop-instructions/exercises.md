@@ -207,7 +207,7 @@
     * Which differences can you appreciate regarding how are we querying the DOM?
     * Choose
       between [App.spec.ts end-to-end test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/end-to-end/App.spec.ts)
-      and [Cypress option end-to-end test]() and add more assertions so you can cover the test cases on practical
-      exercises 04, 05 and 06
+      and [Cypress option end-to-end test](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/cypress/integration/App.spec.ts)
+      and add more assertions so you can cover the test cases on practical exercises 04, 05 and 06
 * Time estimation
     * 20 to 30 minutes, depending on the group

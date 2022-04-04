@@ -124,8 +124,15 @@
 * Branch
     * [main](https://github.com/anderconal/testing-library-101-ts-workshop/tree/main)
 * Instruction
+    * Prepare a test for
+      the [FunctionalComponentWithHooks](https://github.com/anderconal/testing-library-101-ts-workshop/blob/main/src/FunctionalComponentWithHooks/FunctionalComponentWithHooks.tsx)
+      on which you assert the following elements have been rendered into the DOM
+        * Anchor with href and default role link
+        * Anchor without href and forced role link
+        * Anchor without href and without role link
+        * Div without href and with role link
     * Time estimation
-        * to minutes, depending on the group
+        * 10 to 15 minutes, depending on the group
 
 ## Practical exercise 06
 
